@@ -1,0 +1,244 @@
+body
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p
+{
+  text-indent:50px
+}
+.ustmenu
+{
+    margin-top: 10;
+    margin-left: 10;
+}
+.ustmenu ul
+{
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+}
+.ustmenu li 
+{
+    float: left;
+}
+.ustmenu li a 
+{
+    display: block;
+    padding:12px 16px;
+    color:#1a4108;
+    text-decoration:none; 
+}
+.ustmenu li a:hover
+{
+    background-color:#26ca4f; 
+    color: #1a4108;
+    opacity: 0.5;
+}
+.slider
+{
+  width:800px;
+  height:330px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+.resim1, .resim2, .resim3, .resim4, .resim5
+{
+  position: absolute;
+  width:800px;
+  height:330px;
+}
+ 
+.slider > div > a > a > span
+{
+  position:absolute;
+  display:table;
+  background-color:black;
+  color:white;
+  right:0;
+  bottom:0;
+  padding:5px 10px;
+}
+.resim1{left: 0;}
+.resim2{left: 800px;}
+.resim3{left: 1600px;}
+.resim4{left: 2400px;}
+.resim5{left: 3200px;}
+
+
+.slider > div
+{
+  width: 3200px;
+  height: 330px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: gecisler;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: gecisler;
+  -ms-animation-duration: 20s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: gecisler;
+  animation-duration: 20s;
+  animation-iteration-count:infinite;
+  animation-name: gecisler;
+}
+
+.slider > div  img{
+  opacity: 0.9;
+  filter: alpha(opacity=95);
+}
+ 
+.slider > div  img:hover{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+ 
+.slider > div:hover
+{
+-webkit-animation-play-state:paused;
+
+}
+
+@-webkit-keyframes gecisler
+{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-800px;}
+  30% {left:-800px;}
+  40% {left:-1600px;}
+  50% {left:-1600px;}
+  60% {left:-2400px;}
+  70% {left:-2400px;}
+  80% {left:-3200px;}
+  90% {left:-3200px;}
+}
+@-moz-keyframes gecisler
+{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-800px;}
+  30% {left:-800px;}
+  40% {left:-1600px;}
+  50% {left:-1600px;}
+  60% {left:-2400px;}
+  70% {left:-2400px;}
+  80% {left:-3200px;}
+  90% {left:-3200px;}
+}
+@-ms-keyframes gecisler
+{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-800px;}
+  30% {left:-800px;}
+  40% {left:-1600px;}
+  50% {left:-1600px;}
+  60% {left:-2400px;}
+  70% {left:-2400px;}
+  80% {left:-3200px;}
+  90% {left:-3200px;}
+}
+@keyframes gecisler
+{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-800px;}
+  30% {left:-800px;}
+  40% {left:-1600px;}
+  50% {left:-1600px;}
+  60% {left:-2400px;}
+  70% {left:-2400px;}
+  80% {left:-3200px;}
+  90% {left:-3200px;}
+}
+
+  
+
+  
+  .altMenu
+  {
+      margin-top: 10;
+      margin-left: 10;
+        
+  }
+  .altMenu ul
+  {
+      list-style-type: none;
+      text-align: center;
+      font-size: 20px;
+  }
+  
+  .altMenu li a 
+  {
+      display: block;
+      padding:12px 16px;
+      color:#1a4108;
+      text-decoration:none; 
+  }
+  .altMenu li a:hover
+  {
+      background-color:#26ca4f; 
+      color: #000000;
+      opacity: 0.5;
+  }
+ 
+  .SehirHakkında > img
+  {
+   float: left;
+  }
+  
+  .SehirHakkında > p
+  {
+    color: darkgreen;
+    font-size: 20px;
+    margin-left: 550px;
+  }
+  .Tarih > img
+  {
+    margin-left: 500px;
+  }
+  .Tarih > p
+  {
+    font-size: 20px;
+    color: brown;
+  }
+
+.GezilecekYerler > img
+{
+ float: left;
+ margin-left: 25px;
+}
+.GezilecekYerler > p
+{
+  font-size: 20px;
+}
+.GezilecekYerler > li > a
+{
+  text-decoration: none;
+  font-size: 20px;
+}
+li a
+{
+  text-decoration:none; 
+  font-size: 20px;
+}
+.neYenir > img
+{
+  float: left;
+  margin-left: 50px;
+}
+.neYenir > p
+{
+  font-size: 20px;
+}
+.Universite > p
+{
+  font-size: 20px;
+}
