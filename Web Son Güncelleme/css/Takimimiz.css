@@ -1,0 +1,212 @@
+body
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p
+{
+  text-indent:30px
+}
+@media screen and (min-width:915px)
+{
+
+ul
+{
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+}
+li 
+{
+    float: left;
+    background-color: black;
+    text-align: center;
+}
+li a 
+{
+    display: block;
+    padding:12px 16px;
+    color:rgb(125, 194, 125);
+    text-decoration:none; 
+    text-align: center;
+}
+li a:hover
+{
+    background-color:rgb(109, 194, 109); 
+    color: #000000;
+    opacity: 0.5;
+    text-align: center;
+}
+.ustmenu
+{
+   
+    text-align: center;
+   
+}
+.tarihce
+{
+    width:13%auto;
+    height:13% auto;
+    margin-left: 1%;
+    margin-top: 10px;
+    padding-left: 10;
+    background-color:black;
+    border:1px solid black;
+    float: left;
+    opacity: 0.8;
+}
+.tarihce > p
+{
+    
+    color: rgb(99, 177, 99);
+    font-size: 20px;
+    text-align: left;
+    padding: 3 3 3 3;
+}
+#Baslik1
+{
+    margin-top: 400px;
+    text-align: center;
+    color: green;
+    background-color: black;
+}
+
+#Baslik2
+{
+    margin-top: 1500px;
+    text-align: center;
+    color: green;
+    background-color: black;
+}
+#Baslik3
+{
+    margin-top: 200px;
+    text-align: center;
+    color: green;
+    background-color: black;
+}
+.tatanga
+{
+    width:13%auto;
+    height:13% auto;
+    margin-left: 1%;
+    margin-top: 10px;
+    padding-left: 10;
+    background-color:black;
+    border:1px solid black;
+    float: left;
+    opacity: 0.8;
+
+}
+.tatanga > p
+{   
+    padding: 3 3 3 3;
+    font-size: 23px;
+    color: rgb(99, 177, 99);
+}
+.Kadro > img
+{
+    margin-top: auto;
+    margin-left: 1% ;
+    width: 100%;
+    height: auto;
+}
+}
+@media screen and (max-width:915px)
+{
+    ul
+    {
+        list-style-type: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    li a 
+    {
+        display: block;
+        padding:12px 16px;
+        color:black;
+        text-decoration:none;
+        background-color: rgb(96, 184, 96); 
+        opacity: 0.9;
+    }
+    li a:hover
+    {
+        background-color:#000000; 
+        color: #9bdda9;
+        opacity: 0.5;
+    }
+    .ustmenu
+    {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+   .tarihce
+    {
+    width:13% auto;
+    height: auto;
+    padding-left: 10;
+    margin: 1% auto;
+    background-color:black;
+    border:1px solid black;
+    float: left;
+    opacity: 0.8;
+    }
+    .tarihce > p
+    {
+    color: rgb(99, 177, 99);
+    font-size: 20px;
+    text-align: left;
+    padding: 3 3 3 3;
+    }
+    #Baslik1
+    {
+        margin: 8% auto;
+        text-align: center;
+        color: green;
+        background-color: black;
+        
+    }
+    #Baslik2
+    {
+        margin-top: auto;
+        text-align: center;
+        color: green;
+        background-color: ;
+    }
+    #Baslik3
+    {
+        margin: 8% auto;
+        text-align: center;
+        color: green;
+        background-color: black;
+        
+    }
+   
+    .tatanga
+    {
+    width:13% auto;
+    height:13% auto;
+    padding-left: 10;
+    margin: 1% auto;
+    background-color:black;
+    border:1px solid black;
+    float: left;
+    opacity: 0.8;
+    }
+    .tatanga > p
+    {   
+        color: rgb(99, 177, 99);
+        font-size: 20px;
+        text-align: left;
+        padding: 3 3 3 3;
+    }
+    .Kadro > img
+    {
+        margin-top: auto;
+        margin-left: 1% ;
+        width: 100%;
+        height: auto;
+    }      
+}
